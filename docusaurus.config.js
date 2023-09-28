@@ -35,13 +35,9 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/HiChen404/MyWikiSite/tree/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         pages: {
           path: 'src/pages',
@@ -73,7 +69,7 @@ const config = {
       },
 
       navbar: {
-        title: '404Lab Wiki',
+        title: 'd3N00t Wiki',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon.ico',
@@ -89,8 +85,8 @@ const config = {
           { to: '/home', label: '🏡Home', position: 'right' },
 
           {
-            href: 'https://404Lab.top',
-            label: 'More',
+            href: 'http://jayctf.com',
+            label: 'JayCTF',
             position: 'right',
           },
         ],
@@ -132,13 +128,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'Telegram Channel',
-                href: 'https://t.me/EnjoyDigitalLife',
+                label: 'JayCTF',
+                href: 'http://JayCTF.com',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Chen's Project, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} d3N00t Project, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -150,20 +146,6 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 5,
       },
-      announcementBar: {
-        id: 'support_us',
-        content:
-          '🚀 如果你觉得还不错, 就给一个 ⭐️ Start 吧 ~ <a target="_blank" rel="noopener noreferrer" href="https://github.com/HiChen404/MyWikiSite/tree/master/">Click here</a> ',
-        backgroundColor: '#fafbfc',
-        textColor: '#091E42',
-        isCloseable: false,
-      },
-      metadata: [
-        {
-          name: '这是一个共享的知识库(Wiki Database)，内容涉及软件分享，学习笔记(JavaScript,Vue,Python,Go,Flutter,React)，搞机技巧，互联网冲浪技巧等内容',
-          content: 'Wiki Database,JavaScript,Vue,Python,Go,Flutter,React,破解,技巧,搞机,知识库,Github,黑客,iOS,iPhone',
-        },
-      ],
     }),
 }
 
