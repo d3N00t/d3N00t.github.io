@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdddd=self.webpackChunkdddd||[]).push([[4988],{2970:e=>{e.exports=JSON.parse('{"label":"MDX","permalink":"/tags/mdx","allTagsPath":"/tags","count":1,"items":[{"id":"Notes/MDX \u5b66\u4e60","title":"MDX \u5b66\u4e60","description":"MDX \u6307\u5357","permalink":"/Notes/MDX \u5b66\u4e60"}]}')}}]);

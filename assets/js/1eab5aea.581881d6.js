@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdddd=self.webpackChunkdddd||[]).push([[3799],{6557:a=>{a.exports=JSON.parse('{"label":"JS","permalink":"/tags/js","allTagsPath":"/tags","count":1,"items":[{"id":"JavaScript/JavaScript \u57fa\u7840","title":"JavaScript \u57fa\u7840","description":"JavaScript \u5b66\u4e60\u7b14\u8bb0","permalink":"/JavaScript/JavaScript \u57fa\u7840"}]}')}}]);
